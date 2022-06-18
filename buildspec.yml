@@ -12,8 +12,7 @@ phases:
       - yarn build
   post_build:
     commands:
-      - echo Removing unnecessary files...
-      - rm -rf node_modules/
+      - echo Nothing to do here...
 artifacts:
   files:
     - dist/**/*
