@@ -6,6 +6,7 @@ phases:
       - echo Install packages...
       - yarn global add @nestjs/cli
       - yarn install
+      - yarn add -D @types/node
   build:
     commands:
       - echo Create build...
