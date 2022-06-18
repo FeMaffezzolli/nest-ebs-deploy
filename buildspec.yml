@@ -4,6 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Install packages...
+      - yarn global add @nestjs/cli
       - yarn install
   build:
     commands:
